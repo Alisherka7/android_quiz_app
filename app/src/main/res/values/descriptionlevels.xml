@@ -5,5 +5,7 @@
     <string name="leveltwo">Choose the roman numerals that is greater. Questions can be repeated until you get 20 points</string>
     <string name="leveltwoEnd">"Congratulations! You passed level 2"</string>
     <string name="levelthree">which animal shows the tongue more? Questions can be repeated until you get 20 points</string>
+    <string name="levelthreeEnd">"Congratulations! You passed level 3"</string>
+    <string name="levelfourEnd">"Congratulations! You passed level 4"</string>
 
 </resources>

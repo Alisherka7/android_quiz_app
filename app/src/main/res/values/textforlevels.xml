@@ -23,4 +23,29 @@
     <string name="lvl2text8">VIII</string>
     <string name="lvl2text9">IX</string>
     <string name="lvl2text10">X</string>
+
+
+
+    <string name="lvl3text1">-</string>
+    <string name="lvl3text2">-</string>
+    <string name="lvl3text3">-</string>
+    <string name="lvl3text4">-</string>
+    <string name="lvl3text5">-</string>
+    <string name="lvl3text6">-</string>
+    <string name="lvl3text7">-</string>
+    <string name="lvl3text8">-</string>
+    <string name="lvl3text9">-</string>
+    <string name="lvl3text10">-</string>
+
+
+    <string name="lvl4text1">Algeria</string>
+    <string name="lvl4text2">Kazakhstan</string>
+    <string name="lvl4text3">Argentina</string>
+    <string name="lvl4text4">India</string>
+    <string name="lvl4text5">Australia</string>
+    <string name="lvl4text6">Brazil</string>
+    <string name="lvl4text7">United States</string>
+    <string name="lvl4text8">China</string>
+    <string name="lvl4text9">Canada</string>
+    <string name="lvl4text10">Russia</string>
 </resources>

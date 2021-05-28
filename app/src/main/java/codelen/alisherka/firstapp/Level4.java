@@ -13,14 +13,13 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Random;
 
-public class Level3 extends AppCompatActivity {
+public class Level4 extends AppCompatActivity {
 
 
     Dialog dialog, dialogEnd;
@@ -41,7 +40,7 @@ public class Level3 extends AppCompatActivity {
         //variable text_levels
 
         TextView text_levels = findViewById(R.id.text_levels);
-        text_levels.setText(R.string.level1);
+        text_levels.setText(R.string.level4);
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -75,7 +74,7 @@ public class Level3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    Intent intent = new Intent(Level3.this, GameLevels.class);
+                    Intent intent = new Intent(Level4.this, GameLevels.class);
                     startActivity(intent);
                     finish(); // close this class
                 }catch (Exception e){
@@ -114,7 +113,7 @@ public class Level3 extends AppCompatActivity {
 
         // Interesting fact text
         TextView textdescriptionEnd = (TextView)dialogEnd.findViewById(R.id.textdescriptionEnd);
-        textdescriptionEnd.setText(R.string.leveltwoEnd);
+        textdescriptionEnd.setText(R.string.levelfourEnd);
 
 
 
@@ -124,7 +123,7 @@ public class Level3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    Intent intent = new Intent(Level3.this, GameLevels.class);
+                    Intent intent = new Intent(Level4.this, GameLevels.class);
                     startActivity(intent);
                     finish(); // close this class
                 }catch (Exception e){
@@ -141,7 +140,7 @@ public class Level3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    Intent intent = new Intent(Level3.this, Level3.class);
+                    Intent intent = new Intent(Level4.this, Level4.class);
                     startActivity(intent);
                     finish();
                 }catch (Exception e){
@@ -177,7 +176,7 @@ public class Level3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    Intent intent = new Intent(Level3.this, GameLevels.class);
+                    Intent intent = new Intent(Level4.this, GameLevels.class);
                     startActivity(intent); finish();
                 } catch (Exception e){
                     System.out.println("error");
@@ -197,12 +196,12 @@ public class Level3 extends AppCompatActivity {
 
 
         //connect animation
-        final Animation a = AnimationUtils.loadAnimation(Level3.this, R.anim.alpha);
+        final Animation a = AnimationUtils.loadAnimation(Level4.this, R.anim.alpha);
 
 
         numLeft = random.nextInt(10); // generate random int
-        img_left.setImageResource(array.images3[numLeft]);
-        text_left.setText(array.texts3[numLeft]);
+        img_left.setImageResource(array.images4[numLeft]);
+        text_left.setText(array.texts4[numLeft]);
 
         numRight = random.nextInt(10);
 
@@ -210,8 +209,8 @@ public class Level3 extends AppCompatActivity {
             numRight = random.nextInt(10);
         }
 
-        img_right.setImageResource(array.images3[numRight]);
-        text_right.setText(array.texts3[numRight]);
+        img_right.setImageResource(array.images4[numRight]);
+        text_right.setText(array.texts4[numRight]);
 
         // Left Img
 
@@ -225,7 +224,6 @@ public class Level3 extends AppCompatActivity {
                         img_left.setImageResource(R.drawable.img_true);
                     }else {
                         img_left.setImageResource(R.drawable.img_false);
-
                     }
 
                 }else if(event.getAction() == MotionEvent.ACTION_UP){
@@ -269,9 +267,9 @@ public class Level3 extends AppCompatActivity {
 
                     }else{
                         numLeft = random.nextInt(10); // generate random int
-                        img_left.setImageResource(array.images3[numLeft]);
+                        img_left.setImageResource(array.images4[numLeft]);
                         img_left.startAnimation(a);
-                        text_left.setText(array.texts3[numLeft]);
+                        text_left.setText(array.texts4[numLeft]);
 
                         numRight = random.nextInt(10);
 
@@ -279,9 +277,9 @@ public class Level3 extends AppCompatActivity {
                             numRight = random.nextInt(10);
                         }
 
-                        img_right.setImageResource(array.images3[numRight]);
+                        img_right.setImageResource(array.images4[numRight]);
                         img_right.startAnimation(a);
-                        text_right.setText(array.texts3[numRight]);
+                        text_right.setText(array.texts4[numRight]);
 
                         img_right.setEnabled(true);
                     }
@@ -346,9 +344,9 @@ public class Level3 extends AppCompatActivity {
 
                     }else{
                         numLeft = random.nextInt(10); // generate random int
-                        img_left.setImageResource(array.images3[numLeft]);
+                        img_left.setImageResource(array.images4[numLeft]);
                         img_left.startAnimation(a);
-                        text_left.setText(array.texts3[numLeft]);
+                        text_left.setText(array.texts4[numLeft]);
 
                         numRight = random.nextInt(10);
 
@@ -356,9 +354,9 @@ public class Level3 extends AppCompatActivity {
                             numRight = random.nextInt(10);
                         }
 
-                        img_right.setImageResource(array.images3[numRight]);
+                        img_right.setImageResource(array.images4[numRight]);
                         img_right.startAnimation(a);
-                        text_right.setText(array.texts3[numRight]);
+                        text_right.setText(array.texts4[numRight]);
 
                         img_left.setEnabled(true);
                     }
@@ -375,7 +373,7 @@ public class Level3 extends AppCompatActivity {
     @Override
     public void onBackPressed(){
         try{
-            Intent intent = new Intent(Level3.this, GameLevels.class);
+            Intent intent = new Intent(Level4.this, GameLevels.class);
             startActivity(intent); finish();
         } catch (Exception e){
             System.out.println("error");
