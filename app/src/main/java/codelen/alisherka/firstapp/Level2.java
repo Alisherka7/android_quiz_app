@@ -40,7 +40,7 @@ public class Level2 extends AppCompatActivity {
         //variable text_levels
 
         TextView text_levels = findViewById(R.id.text_levels);
-        text_levels.setText(R.string.level1);
+        text_levels.setText(R.string.level2);
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
