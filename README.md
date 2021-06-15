@@ -12,3 +12,10 @@ Which is more? Quiz app is created for a good pastime and while playing you can 
 <br>
 <br>
 This application was originally created by <b><a href="alisherka.me">Alisherka7</a></b> and released under the <b>GNU GPLv3</b>. 
+
+## Features
+
+Functions were implemented to create the application<br>
+- Storing the data reference as an array
+- The ability to compare two selected pictures on "True or False"
+- Switching between screens using the button on the screen
