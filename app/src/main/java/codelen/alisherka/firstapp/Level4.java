@@ -55,7 +55,7 @@ public class Level4 extends AppCompatActivity {
 
         // Dialog
         ImageView previewimg = (ImageView)dialog.findViewById(R.id.previewimg);
-        previewimg.setImageResource(R.drawable.previewimg3);
+        previewimg.setImageResource(R.drawable.previewimgfour);
 
         //Install background dialog
 //        LinearLayout dialogfon = (LinearLayout) findViewById(R.id.dialogfon);
@@ -65,7 +65,7 @@ public class Level4 extends AppCompatActivity {
 
         //Install description
         TextView textdescription = (TextView)dialog.findViewById(R.id.textdescription);
-        textdescription.setText(R.string.levelthree);
+        textdescription.setText(R.string.levelfour);
 
 
         //button for close dialog window

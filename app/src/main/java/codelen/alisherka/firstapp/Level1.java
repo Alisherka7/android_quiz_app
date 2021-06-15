@@ -17,6 +17,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
 import org.w3c.dom.Text;
 
 import java.util.Random;
@@ -39,6 +40,7 @@ public class Level1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.universal);
+
 
 
         //variable text_levels
@@ -134,10 +136,6 @@ public class Level1 extends AppCompatActivity {
 
 
         //_________________________________________
-
-
-
-
 
 
         //left img

@@ -7,5 +7,6 @@
     <string name="levelthree">which animal shows the tongue more? Questions can be repeated until you get 20 points</string>
     <string name="levelthreeEnd">"Congratulations! You passed level 3"</string>
     <string name="levelfourEnd">"Congratulations! You passed level 4"</string>
+    <string name="levelfour">Select largest country by territory! Questions can be repeated until you get 20 points</string>
 
 </resources>

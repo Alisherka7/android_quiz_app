@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/main_background" />
+        android:src="@drawable/l_background" />
 
     <LinearLayout
         android:id="@+id/container1"
@@ -36,14 +36,11 @@
 
                 <Button
                     android:id="@+id/btn_back"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp"
-                    android:background="@drawable/style_btn_white_blue_press"
-                    android:padding="10dp"
-                    android:text="@string/back"
-                    android:textAllCaps="false"
-                    android:textSize="40sp" />
+                    android:layout_width="75dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/btn_back1"
+                    android:padding="10dp" />
 
                 <TextView
                     android:id="@+id/text_levels"
@@ -53,7 +50,7 @@
                     android:gravity="right"
                     android:padding="10dp"
                     android:text="@string/level"
-                    android:textColor="@color/purple_500"
+                    android:textColor="@color/white"
                     android:textSize="40sp"
 
                     />
@@ -246,7 +243,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Text Left"
-                    android:textColor="@color/purple_500"
+                    android:textColor="@color/white"
                     android:textSize="40sp"
                     android:layout_marginRight="5dp"
                     android:layout_weight="1"
@@ -257,7 +254,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Text Right"
-                    android:textColor="@color/purple_500"
+                    android:textColor="@color/white"
                     android:textSize="40sp"
                     android:layout_marginRight="5dp"
                     android:layout_weight="1"
