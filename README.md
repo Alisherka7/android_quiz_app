@@ -11,4 +11,4 @@ Quiz app available on the Google play Store.
 Which is more? Quiz app is created for a good pastime and while playing you can learn new facts. You can download "Which is more?" app from Google Play Store or <a href="alisherka.me">alisherka.me</a>
 <br>
 <br>
-This application was originally created by <b><a href="alisherka.me">Alisherka7</a></b> and released under the GNU GPLv3. 
+This application was originally created by <b><a href="alisherka.me">Alisherka7</a></b> and released under the <b>GNU GPLv3</b>. 
